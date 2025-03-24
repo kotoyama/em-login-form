@@ -1,13 +1,10 @@
-name: CI
+name: Check pr
 
 on:
-  push:
-    branches: [prod]
   pull_request:
-    branches: [prod]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,6 +20,3 @@ jobs:
 
       - name: Lint
         run: bunx run lint
-
-      - name: Build project
-        run: bun run build
