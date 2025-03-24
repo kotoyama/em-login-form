@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 
 /** @type {import('vite').UserConfig} */
 export default {
+  base: '/em-sign-in-form/',
   plugins: [htmlMinifier({ minify: true })],
   resolve: {
     alias: {
