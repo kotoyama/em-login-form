@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kotoyama.github.io/em-sign-in-form/",
+  "homepage": "https://kotoyama.github.io/em-login-form/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
