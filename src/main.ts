@@ -1,5 +1,5 @@
-import { renderSignInForm } from '~/features/sign-in'
 import '~/shared/ui/styles/index.css'
+import { renderSignInForm } from '~/features/sign-in'
 
 function bootstrap() {
   const appContainer = document.getElementById('app')
