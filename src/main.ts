@@ -9,7 +9,7 @@ function bootstrap() {
     return
   }
 
-  renderSignInForm(appContainer!)
+  renderSignInForm(appContainer)
 }
 
 try {
