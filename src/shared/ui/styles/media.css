@@ -1,0 +1,2 @@
+@custom-media --sm-down (max-width: 767px);
+@custom-media --sm-up (min-width: 768px);

@@ -1,0 +1,27 @@
+@import '~/shared/ui/styles/media.css';
+
+.alert {
+  --alert-color: var(--color-dark);
+  padding: var(--space-m);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--alert-color);
+  border: 2px solid var(--alert-borderColor);
+  border-radius: 6px;
+
+  @media (--sm-down) {
+    padding: var(--space-s);
+  }
+
+  &[data-type='info'] {
+    --alert-borderColor: var(--color-accent);
+  }
+
+  &[data-type='error'] {
+    --alert-borderColor: var(--color-danger);
+  }
+
+  &[data-type='success'] {
+    --alert-borderColor: var(--color-success);
+  }
+}

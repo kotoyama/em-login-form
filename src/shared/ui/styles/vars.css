@@ -1,0 +1,54 @@
+:root {
+  /* root settings */
+  --root-fontSize: clamp(18px, 2vw, 24px);
+  --root-fontWeight: 400;
+  --root-lineHeight: 1.5;
+  --root-fontFamily:
+    'Inter', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  /* spacing */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-s: 12px;
+  --space-m: 18px;
+  --space-l: 24px;
+  --space-xl: 36px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* text */
+  --text-xxs: 0.75rem;
+  --text-xs: 0.875rem;
+  --text-s: 1rem;
+  --text-m: 1.25rem;
+  --text-l: 1.5rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+
+  /* colors */
+  --color-light: oklch(100% 0 0);
+  --color-dark: oklch(30.49% 0.0379 279.69);
+
+  /* semantic values */
+  --color-accent: oklch(55.58% 0.2141 269.02);
+  --color-success: oklch(72.68% 0.1475 164.3);
+  --color-danger: oklch(64.76% 0.2042 11.07);
+
+  --color-bg-primary: oklch(98.16% 0.0017 247.84);
+  --color-bg-secondary: var(--color-light);
+
+  --color-text-primary: var(--color-dark);
+
+  --color-control-bg-primary: var(--color-accent);
+  --color-control-bg-primary-hover: oklch(51% 0.1959 268.75);
+  --color-control-bg-disabled: oklch(67.34% 0.0345 269.02);
+  --color-control-text-primary: var(--color-light);
+  --color-control-border: oklch(76.71% 0.0106 247.95);
+  --color-control-focusRing: var(--color-accent);
+
+  --control-radius: 6px;
+
+  --shadow-box: 0 4px 6px oklch(0% 0 0 / 10%);
+}
