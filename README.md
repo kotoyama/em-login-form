@@ -1,6 +1,6 @@
 # Accessible Login Form  
 
-A minimal login form following best practices in accessibility.
+A minimal login form following best practices in UX.
 
 ## Features  
 
