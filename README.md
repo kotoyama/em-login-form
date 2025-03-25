@@ -7,7 +7,7 @@ A minimal login form following best practices in UX.
 - **Semantic HTML.** Proper use of `<form>`, `<label>`, and `<button>` for better structure and screen reader support.  
 - **Accessibility Best Practices.** ARIA attributes, focus management, and full keyboard navigation.  
 - **User-Friendly Design.** Intuitive interactions and clear feedback.
-- **Lightweight** – No UI libraries, just clean HTML, CSS, and TypeScript.  
+- **Lightweight.** No UI libraries, just clean HTML, CSS, and TypeScript.  
 
 ## Resources  
 
